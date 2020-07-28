@@ -1,0 +1,17 @@
+{
+    "name": "caiokoch/meusalaopet",
+    "description": "Sistema para Salões Pet",
+    "authors": [
+        {
+            "name": "Caio V. Koch",
+            "email": "caiokoch@hotmail.com"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "app\\" : "app/"
+        }
+    }
+}
