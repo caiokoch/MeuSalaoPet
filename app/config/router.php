@@ -1,13 +1,8 @@
 <?php
 
 $this->get('/', function(){
-    echo'home';
+    (new \app\controller\TesteController)->index();
 });
-
-$this->get('/home', function(){
-    echo'estou home';
-});
-
 
 $this->get('/about/test', function(){
     echo'estou About test';
