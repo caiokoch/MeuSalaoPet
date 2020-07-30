@@ -9,8 +9,9 @@
     {% block title %}{% endblock %}
     </title>
 </head>
-<body>
+<body  class="hold-transition skin-blue sidebar-mini">
     {% include 'partials/header.twig.php'%}
     {% block body %}{% endblock %}
+
 </body>
 </html>

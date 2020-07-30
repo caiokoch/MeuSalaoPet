@@ -1,9 +1,7 @@
+  
 <?php
 
-$this->get('/', function(){
-    (new \app\controller\TesteController)->index();
-});
-
-$this->get('/about/test', function(){
-    echo'estou About test';
-});
+$this->get('/', 'PagesController@home');
+$this->get('/cep', 'PagesController@cep');
+$this->get('/quem-somos', 'PagesController@quemSomos');
+$this->get('/contato', 'PagesController@contato');

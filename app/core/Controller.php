@@ -10,7 +10,7 @@ class Controller
             new \Twig\Loader\FilesystemLoader('../app/view/')
         );
 
-        #$twig->addGlobal('BASE', BASE);
+        $twig->addGlobal('BASE', BASE);
         echo $twig->render($view . '.twig.php',$params);
     }
 }
